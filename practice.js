@@ -173,7 +173,7 @@ each(names, function(item, indice){
 // Code here
 function getUserById(users, id, callback){
   for (let i = 0; i < users.length; i++){
-    if (users[i] === id){
+    if (users[i].id === id){
       callback(users[i])
     }
   }
